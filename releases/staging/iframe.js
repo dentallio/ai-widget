@@ -2,10 +2,9 @@
   (function() {
     const e = document;
     const l = e.createElement('script');
-    l.async = true;
     l.type = 'module';
-    l.src = 'https://cdn.jsdelivr.net/gh/dentallio/ai-widget@stg-v1.1.23/releases/staging/ai-widget-bundle.js';
-    const t = e.getElementsByTagName('script')[0];
+    l.src = 'https://cdn.jsdelivr.net/gh/dentallio/ai-widget@stg-v1.1.26/releases/staging/ai-widget-bundle.js';
+    const t = (e.body || e.head).getElementsByTagName('script')[0];
     t.parentNode.insertBefore(l, t);
   })();
   
