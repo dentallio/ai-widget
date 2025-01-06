@@ -1,11 +1,3 @@
 
-  (function() {
-    const e = document;
-    const l = e.createElement('script');
-    l.async = true;
-    l.type = 'module';
-    l.src = 'https://cdn.jsdelivr.net/gh/dentallio/ai-widget@v1.1.23/releases/dist/ai-widget-bundle.js';
-    const t = e.getElementsByTagName('script')[0];
-    t.parentNode.insertBefore(l, t);
-  })();
+  !function(){let e=document,t=e.createElement("script");t.type="module",t.src="https://cdn.jsdelivr.net/gh/dentallio/ai-widget@v1.1.36/releases/dist/ai-widget-bundle.js";let d=(e.body||e.head).getElementsByTagName("script")[0];d?.parentNode?d.parentNode.insertBefore(t,d):(e.head||e.body)?.appendChild(t)}();
   
